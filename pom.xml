@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>service-sample2-common</module>
-        <module>service-sample2-dal</module>
-        <module>service-sample2-service</module>
-        <module>service-sample2-business</module>
-        <module>service-sample2</module>
+        <module>xy-service-sample2-common</module>
+        <module>xy-service-sample2-dal</module>
+        <module>xy-service-sample2-service</module>
+        <module>xy-service-sample2-business</module>
+        <module>xy-service-sample2</module>
     </modules>
 
     <parent>
@@ -18,24 +18,24 @@
     </parent>
 
     <groupId>com.fresh.xy</groupId>
-    <artifactId>xy-service-sample2</artifactId>
+    <artifactId>xy-service-sample2-collects</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
-    <name>xy-service-sample2</name>
-    <description>xy-service-sample2</description>
-    <url>https://www.github.com/freshlml/xy-service-sample2</url>
+    <name>xy-service-sample2-collects</name>
+    <description>xy-service-sample2-collects</description>
+    <url>https://www.github.com/freshlml/xy-service-sample2-collects</url>
     <scm>
-        <url>https://www.github.com/freshlml/xy-service-sample2</url>
+        <url>https://www.github.com/freshlml/xy-service-sample2-collects</url>
     </scm>
 
 
     <properties>
         <!-- 控制子module版本号,随着项目版本号的变动而变动 -->
-        <service-sample2-common.version>1.0.0</service-sample2-common.version>
-        <service-sample2-dal.version>1.0.0</service-sample2-dal.version>
-        <service-sample2-service.version>1.0.0</service-sample2-service.version>
-        <service-sample2-business.version>1.0.0</service-sample2-business.version>
-        <service-sample2.version>1.0.0</service-sample2.version>
+        <xy-service-sample2.version>1.0.0</xy-service-sample2.version>
+        <xy-service-sample2-business.version>1.0.0</xy-service-sample2-business.version>
+        <xy-service-sample2-common.version>1.0.0</xy-service-sample2-common.version>
+        <xy-service-sample2-dal.version>1.0.0</xy-service-sample2-dal.version>
+        <xy-service-sample2-service.version>1.0.0</xy-service-sample2-service.version>
 
         <!-- xy-service-sample-api版本号 -->
         <xy-service-sample-api.version>1.0.0</xy-service-sample-api.version>
@@ -47,23 +47,23 @@
         <dependencies>
             <dependency>
                 <groupId>com.fresh.xy</groupId>
-                <artifactId>service-sample2-common</artifactId>
-                <version>${service-sample2-common.version}</version>
+                <artifactId>xy-service-sample2-common</artifactId>
+                <version>${xy-service-sample2-common.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fresh.xy</groupId>
-                <artifactId>service-sample2-dal</artifactId>
-                <version>${service-sample2-dal.version}</version>
+                <artifactId>xy-service-sample2-dal</artifactId>
+                <version>${xy-service-sample2-dal.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fresh.xy</groupId>
-                <artifactId>service-sample2-service</artifactId>
-                <version>${service-sample2-service.version}</version>
+                <artifactId>xy-service-sample2-service</artifactId>
+                <version>${xy-service-sample2-service.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fresh.xy</groupId>
-                <artifactId>service-sample2-business</artifactId>
-                <version>${service-sample2-business.version}</version>
+                <artifactId>xy-service-sample2-business</artifactId>
+                <version>${xy-service-sample2-business.version}</version>
             </dependency>
 
             <!-- xy-service-sample-api -->

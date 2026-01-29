@@ -3,17 +3,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>com.fresh.xy</groupId>
-        <artifactId>xy-service-sample2</artifactId>
+        <artifactId>xy-service-sample2-collects</artifactId>
         <version>1.0.0</version>
     </parent>
 
     <groupId>com.fresh.xy</groupId>
-    <artifactId>service-sample2-common</artifactId>
-    <version>${service-sample2-common.version}</version>
-    <name>service-sample2-common</name>
-    <description>service-sample2-common</description>
+    <artifactId>xy-service-sample2-common</artifactId>
+    <version>${xy-service-sample2-common.version}</version>
+    <name>xy-service-sample2-common</name>
+    <description>xy-service-sample2-common</description>
 
     <properties>
         <skipTests>true</skipTests>
