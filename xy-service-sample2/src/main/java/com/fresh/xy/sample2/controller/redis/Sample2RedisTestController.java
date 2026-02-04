@@ -2,12 +2,11 @@ package com.fresh.xy.sample2.controller.redis;
 
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fresh.common.result.JsonResult;
+import com.fresh.core.result.JsonResult;
 import com.fresh.xy.redis.config.FlCustomSerializer;
 import com.fresh.xy.redis.dto.ForTestPojo2RedisDto;
 import com.fresh.xy.redis.enums.ForRedisTestPojoDtoEnum;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

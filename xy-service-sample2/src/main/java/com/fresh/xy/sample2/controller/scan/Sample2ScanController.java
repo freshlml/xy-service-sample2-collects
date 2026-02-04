@@ -1,9 +1,9 @@
 package com.fresh.xy.sample2.controller.scan;
 
-import com.fresh.common.enums.JsonResultEnum;
-import com.fresh.common.result.JsonResult;
-import com.fresh.common.result.PageJsonResultVo;
-import com.fresh.common.utils.AssertUtils;
+import com.fresh.core.enums.JsonResultEnum;
+import com.fresh.core.result.JsonResult;
+import com.fresh.core.result.PageJsonResultVo;
+import com.fresh.core.utils.AssertUtils;
 import com.fresh.xy.common.dto.PageDto;
 import com.fresh.xy.mbp.utils.MybatisPlusPageUtils;
 import com.fresh.xy.sample.api.SampleServiceApi;

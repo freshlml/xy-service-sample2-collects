@@ -2,11 +2,11 @@ package com.fresh.xy.sample2.controller.scan;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.fresh.common.enums.JsonResultEnum;
-import com.fresh.common.exception.BizException;
-import com.fresh.common.result.JsonResult;
-import com.fresh.common.result.PageJsonResultVo;
-import com.fresh.common.utils.AssertUtils;
+import com.fresh.core.enums.JsonResultEnum;
+import com.fresh.core.exception.BizException;
+import com.fresh.core.result.JsonResult;
+import com.fresh.core.result.PageJsonResultVo;
+import com.fresh.core.utils.AssertUtils;
 import com.fresh.xy.common.enums.ScanTypeEnum;
 import com.fresh.xy.mbp.utils.MybatisPlusPageUtils;
 import com.fresh.xy.sample2.api.bo.Sample2ScanAddBo;
